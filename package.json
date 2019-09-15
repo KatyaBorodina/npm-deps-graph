@@ -1,0 +1,25 @@
+{
+  "name": "npm-deps-graph",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Katya Borodina",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-redux": "6.0.1",
+    "react-router-dom": "4.3.1",
+    "redux": "4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
