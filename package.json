@@ -11,15 +11,20 @@
   "dependencies": {
     "react": "16.8.3",
     "react-dom": "16.8.3",
+    "react-force-graph-2d": "^1.9.1",
     "react-redux": "6.0.1",
     "react-router-dom": "4.3.1",
     "redux": "4.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "@babel/core": "7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
+    "axios": "0.18.0",
+    "babel-loader": "8.0.6",
+    "webpack": "4.40.2",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.4.1"
   }
 }
