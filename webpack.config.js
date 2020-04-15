@@ -1,4 +1,5 @@
 const path = require('path');
+const PORT = process.env.PORT || 5000;
 
 module.exports = {
     mode: 'development',
@@ -10,7 +11,7 @@ module.exports = {
         filename: 'main.bundle.js'
     },
     devServer: {
-        port: 3000,
+        port: PORT,
         contentBase: path.join(__dirname, 'app')
     },
     module: {
